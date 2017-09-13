@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LYFT CAR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets/js/login.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <div class="back-page1 text-center">
+                            <a href="index.html">&lt;</a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8">
+                        <div class="title-signup text-center">
+                            <h1>Sign up</h1>
+                            <p>Join now for free ride credit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <section id="second-windows">
+        <div class="container-fluid">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="input-group">
+                            <div class="dropdown input-group-btn" id="country-codes">
+                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                  <span class="bandera">Select a Country</span>
+                                  <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#" value="+51"><img src="assets/img/peru.png" alt=""> Peru</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" value="+54"><img src="assets/img/mexico.png" alt=""> Mexico</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" value="+56"><img src="assets/img/chile.png" alt=""> Chile</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <input type="number" class="form-control" placeholder="Ingresa numero" required>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container text-signup">
+                <div class="text-center">
+                    <p>We'll send a text to verity your phone</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid next">
+            <div class="container">
+                <div class="text-center">
+                    <a data-toggle="modal" href="#" data-target="#myModal" id="num-aleatorio">Next</a>
+                </div>
+            </div>
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h3>CODIGO DE USUARIO</h3>
+                        </div>
+                        <div class="modal-body" id="cod"></div>
+                        <div class="modal-footer">
+                            <a href="registro.html" id="gd-id" class="btn btn-success">Guardar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
