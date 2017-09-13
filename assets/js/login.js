@@ -41,4 +41,5 @@ $(document).ready(function () {
         localStorage.setItem('lista',listJson);
         JSON.parse(listJson);
     });
+    
 });
