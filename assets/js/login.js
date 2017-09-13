@@ -5,13 +5,13 @@ $(document).ready(function () {
         if ($(this).attr('value') == "+51") {
             $('span.bandera').append($('<img src="assets/img/peru.png" width="25px">'));
             $('input').attr('pattern', '[0-9]{2} [0-9]{9}');
-            $('input').attr('value', '51');
-        } else if ($(this).attr('value') == "+54") {
-            $('span.bandera').append($('<img src="assets/img/mexico.png" width="25px">'));
-            $('input').attr('placeholder', '233-11234567');
+            $('input').attr('placeholder', '+51 989999999');
         } else if ($(this).attr('value') == "+56") {
+            $('span.bandera').append($('<img src="assets/img/mexico.png" width="25px">'));
+            $('input').attr('placeholder', '+56-11234567');
+        } else if ($(this).attr('value') == "+52") {
             $('span.bandera').append($('<img src="assets/img/chile.png" width="25px">'));
-            $('input').attr('placeholder', '515-345-3455');
+            $('input').attr('placeholder', '+52 125-345-3455');
         }
 
     });
