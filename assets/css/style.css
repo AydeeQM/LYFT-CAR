@@ -78,16 +78,14 @@ header .col-xs-2 {
 //////////////////////////////////////////////////////////
 
 /* TERCERA VENTANA  */
-
+#registra{
+    background-color: transparent;
+}
 
 /////////////////////////////////////////////////////////
 
 /* CUARTA VENTANA DE MAPA */
 
-
-/*body {
-    background: #18bc9c; rgba(68, 157, 68, 0.2);
-}*/
 
 button {
     width: 100%;

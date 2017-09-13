@@ -165,6 +165,8 @@ const app = {
                 function (response, status) {
                     if (status === "OK") {
                         app.settings.directionsDisplay.setDirections(response);
+                        //app.settings.price_stimated = response.routes[0].overview_path.length / 10  + ‘USD’;
+
                     } else {
                         app.error();
                     }
